@@ -1,3 +1,3 @@
 <footer>
-    <p>This is a footer!</p>
+    <p>Це наший footer!</p>
 </footer>
