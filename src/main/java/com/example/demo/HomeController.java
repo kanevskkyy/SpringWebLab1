@@ -21,4 +21,14 @@ public class HomeController {
         model.addAttribute("page", page);
         return "index";
     }
+
+    @GetMapping("/content")
+    public String content(Model model) {
+        Page page = new Page("This is a content");
+        model.addAttribute("userName", "Sasha");
+        return "newUrl";
+    }
+
+
+
 }
